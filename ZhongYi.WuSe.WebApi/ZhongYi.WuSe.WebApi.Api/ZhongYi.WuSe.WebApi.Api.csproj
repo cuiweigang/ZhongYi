@@ -131,8 +131,10 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="ModelBinders\NamespaceHttpControllerSelector.cs" />
+    <Compile Include="Versions\V1\Controllers\TestController.cs" />
+    <Compile Include="Versions\V1\V1AreaRegistration.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Filters\AuthorizeFilterAttribute.cs" />
     <Compile Include="Filters\NoAuthorizeFilterAttribute.cs" />
     <Compile Include="Filters\VerificationFilterAttribute.cs" />
@@ -146,6 +148,8 @@
     <Compile Include="ModelBinders\CommonRequestBinder.cs" />
     <Compile Include="ModelBinders\CustomHttpControllerSelector.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Versions\V2\Controllers\DemoController.cs" />
+    <Compile Include="Versions\V2\V2AreaRegistration.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="favicon.ico" />
@@ -160,7 +164,6 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
@@ -170,6 +173,7 @@
       <Name>ZhongYi.WuSe.WebApi.Logic</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

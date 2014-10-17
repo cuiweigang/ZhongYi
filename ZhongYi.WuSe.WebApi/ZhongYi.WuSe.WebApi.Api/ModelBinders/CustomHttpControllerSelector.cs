@@ -57,7 +57,7 @@
         // Get a value from the route data, if present.
         private static T GetRouteVariable<T>(IHttpRouteData routeData, string name)
         {
-            object result = null;
+            object result;
             if (routeData.Values.TryGetValue(name, out result))
             {
                 return (T)result;

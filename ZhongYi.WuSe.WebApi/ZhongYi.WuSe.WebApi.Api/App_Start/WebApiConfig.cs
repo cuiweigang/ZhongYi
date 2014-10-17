@@ -13,8 +13,8 @@
     {
         public static void Register(HttpConfiguration config)
         {
-            // 使用自定义控制选择器
-            GlobalConfiguration.Configuration.Services.Replace(typeof(IHttpControllerSelector), new CustomHttpControllerSelector(GlobalConfiguration.Configuration));
+            //// 使用自定义控制选择器
+            GlobalConfiguration.Configuration.Services.Replace(typeof(IHttpControllerSelector), new NamespaceHttpControllerSelector(GlobalConfiguration.Configuration));
 
             // 参数绑定器
             config.ParameterBindingRules.Insert(0, param =>
