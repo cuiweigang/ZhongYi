@@ -9,7 +9,8 @@
     using ZhongYi.WuSe.WebApi.Logic.Exceptions;
     using ZhongYi.WuSe.WebApi.Logic.Request;
 
-    public class ValuesController : ApiController
+
+    public class v1_ValuesController : ApiController
     {
         [AcceptVerbs("GET", "POST")]
         public IEnumerable<string> Add(CommonRequest common, [ModelBinder] SignRequest sign, int id = 0, string name = "")

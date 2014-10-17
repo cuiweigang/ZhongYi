@@ -144,6 +144,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="ModelBinders\CommonRequestBinder.cs" />
+    <Compile Include="ModelBinders\CustomHttpControllerSelector.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

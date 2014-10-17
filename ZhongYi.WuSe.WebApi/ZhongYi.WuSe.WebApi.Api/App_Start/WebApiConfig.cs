@@ -2,6 +2,7 @@
 {
     using System.Linq;
     using System.Web.Http;
+    using System.Web.Http.Dispatcher;
 
     using ZhongYi.WuSe.WebApi.Api.Filters;
     using ZhongYi.WuSe.WebApi.Api.Formatters;
@@ -12,6 +13,10 @@
     {
         public static void Register(HttpConfiguration config)
         {
+            // 使用自定义控制选择器
+            GlobalConfiguration.Configuration.Services.Replace(typeof(IHttpControllerSelector), new CustomHttpControllerSelector(GlobalConfiguration.Configuration));
+
+            // 参数绑定器
             config.ParameterBindingRules.Insert(0, param =>
             {
                 if (param.ParameterType == typeof(CommonRequest))
@@ -34,10 +39,11 @@
             // 移除XML数据媒体格式
             config.Formatters.Remove(config.Formatters.XmlFormatter);
 
+            // 路由规则
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
-                routeTemplate: "api/{controller}/{action}",
-                defaults: new { controller = "values", action = "add", id = RouteParameter.Optional }
+                routeTemplate: "api/{version}/{controller}/{action}",
+                defaults: new { version = string.Empty, id = RouteParameter.Optional }
             );
         }
     }

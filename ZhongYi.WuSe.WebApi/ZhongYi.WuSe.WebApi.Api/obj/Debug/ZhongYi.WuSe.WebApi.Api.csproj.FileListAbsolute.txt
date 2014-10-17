@@ -18,6 +18,8 @@ E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\System.Web.Web
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\System.Web.WebPages.dll
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\System.Web.WebPages.Razor.dll
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\WebGrease.dll
+E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\ZhongYi.WuSe.WebApi.Logic.dll
+E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\ZhongYi.WuSe.WebApi.Logic.pdb
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\EntityFramework.xml
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\Newtonsoft.Json.xml
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\System.Net.Http.xml
@@ -48,5 +50,3 @@ E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\zh-Hans\System
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\obj\Debug\ZhongYi.WuSe.WebApi.Api.csprojResolveAssemblyReference.cache
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\obj\Debug\ZhongYi.WuSe.WebApi.Api.dll
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\obj\Debug\ZhongYi.WuSe.WebApi.Api.pdb
-E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\ZhongYi.WuSe.WebApi.Logic.dll
-E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\ZhongYi.WuSe.WebApi.Logic.pdb
