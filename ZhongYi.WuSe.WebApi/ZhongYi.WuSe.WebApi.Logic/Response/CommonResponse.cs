@@ -6,7 +6,7 @@ namespace ZhongYi.WuSe.WebApi.Logic.Response
     /// 公共返回部分
     /// </summary>
     [DataContract]
-    public class CommonRsponse
+    public class CommonResponse
     {
         /// <summary>
         /// 状态值

@@ -65,7 +65,7 @@
             using (StreamWriter streamWriter = new StreamWriter(writeStream, this.SupportedEncodings.First()))
             using (JsonTextWriter jsonTextWriter = new JsonTextWriter(streamWriter) { CloseOutput = false })
             {
-                var response = new CommonRsponse
+                var response = new CommonResponse
                 {
                     Status = 200,
                     Data = value,

@@ -2,4 +2,3 @@ E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Logic\bin\Debug\ZhongY
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Logic\bin\Debug\ZhongYi.WuSe.WebApi.Logic.pdb
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Logic\obj\Debug\ZhongYi.WuSe.WebApi.Logic.dll
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Logic\obj\Debug\ZhongYi.WuSe.WebApi.Logic.pdb
-E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Logic\obj\Debug\ZhongYi.WuSe.WebApi.Logic.csprojResolveAssemblyReference.cache

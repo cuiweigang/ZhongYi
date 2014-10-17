@@ -133,12 +133,17 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="Filters\AuthorizeFilterAttribute.cs" />
+    <Compile Include="Filters\NoAuthorizeFilterAttribute.cs" />
+    <Compile Include="Filters\VerificationFilterAttribute.cs" />
+    <Compile Include="Filters\ApiExceptionFilterAttribute.cs" />
     <Compile Include="Formatters\ApiJsonMediaTypeFormatter.cs" />
     <Compile Include="Formatters\JsonFactoryMediaTypeFormatter.cs" />
     <Compile Include="Formatters\JsonpMediaTypeFormatter.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="ModelBinders\CommonRequestBinder.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

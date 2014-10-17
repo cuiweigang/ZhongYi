@@ -11,20 +11,19 @@ namespace ZhongYi.WuSe.WebApi.Logic.Exceptions
     /// </summary>
     public class UnLoginedException : BaseException
     {
-    }
+        public UnLoginedException()
+            : this("请重新登录")
+        {
+        }
 
-    /// <summary>
-    /// 验签失败异常
-    /// </summary>
-    public class UnauthorizedException : BaseException
-    {
-    }
+        public UnLoginedException(string message)
+        {
+            this.Message = message;
+        }
 
-    /// <summary>
-    /// 未知错误异常
-    /// </summary>
-    public class UnKnowErrorException : BaseException
-    {
-
+        public override Response.StatusCode StatusCode
+        {
+            get { return Response.StatusCode.UnLogined; }
+        }
     }
 }

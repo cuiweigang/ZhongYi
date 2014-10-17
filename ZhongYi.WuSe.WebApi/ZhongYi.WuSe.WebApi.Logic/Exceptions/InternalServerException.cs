@@ -3,33 +3,32 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using ZhongYi.WuSe.WebApi.Logic.Response;
 
 namespace ZhongYi.WuSe.WebApi.Logic.Exceptions
 {
     /// <summary>
-    /// 客户端异常
+    /// 系统服务内部异常
     /// </summary>
-    public class ClientErrorException : BaseException
+    public class InternalServerException : BaseException
     {
-        public ClientErrorException()
-            : this("客户端错误")
+        public InternalServerException()
+            : this("系统服务内部发生了错误")
         {
         }
 
-        public ClientErrorException(string message)
+        public InternalServerException(string message)
         {
             this.Message = message;
         }
 
         /// <summary>
-        /// 状态值
+        /// 状态码
         /// </summary>
-        public override StatusCode StatusCode
+        public override Response.StatusCode StatusCode
         {
             get
             {
-                return StatusCode.ClientError;
+                return Response.StatusCode.InternalServerError;
             }
         }
     }

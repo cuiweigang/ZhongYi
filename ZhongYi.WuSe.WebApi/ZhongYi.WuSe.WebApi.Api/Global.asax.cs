@@ -34,27 +34,26 @@
         /// <param name="e"></param>
         protected void Application_Error(object sender, EventArgs e)
         {
-            // 记录错误日志
-            // 返回相关异常情况
-            var exception = Server.GetLastError();
-            HttpContext.Current.Response.TrySkipIisCustomErrors = true;
-            HttpContext.Current.ClearError();
-            var desc = "";
-            var code = 200;
+            //// 记录错误日志
+            //// 返回相关异常情况
+            //var exception = Server.GetLastError();
+            //HttpContext.Current.Response.TrySkipIisCustomErrors = true;
+            //HttpContext.Current.ClearError();
+            //var desc = "";
+            //var code = 200;
 
-            if (exception is ServerErrorException)
-            {
-                desc = "出错了";
-                code = 500;
-            }
+            //if (exception is ServerErrorException)
+            //{
+            //    desc = "出错了";
+            //    code = 500;
+            //}
 
-            Server.ClearError();
+            //Server.ClearError();
 
-            HttpContext.Current.Response.ClearHeaders();
-            HttpContext.Current.Response.Clear();
-            HttpContext.Current.Response.StatusCode = 200;
-            HttpContext.Current.Response.Write(string.Format("{status={0},desc=\"{1}\"}", code, desc));
-            HttpContext.Current.Response.End();
+            //HttpContext.Current.Response.Clear();
+            //HttpContext.Current.Response.StatusCode = 200;
+            //HttpContext.Current.Response.Write(string.Format("{status={0},desc=\"{1}\"}", code, desc));
+            //HttpContext.Current.Response.End();
         }
     }
 }
