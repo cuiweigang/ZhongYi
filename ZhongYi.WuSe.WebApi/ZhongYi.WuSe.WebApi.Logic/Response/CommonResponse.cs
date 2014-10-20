@@ -8,6 +8,11 @@ namespace ZhongYi.WuSe.WebApi.Logic.Response
     [DataContract]
     public class CommonResponse
     {
+        public CommonResponse()
+        {
+            this.Description = string.Empty;
+        }
+
         /// <summary>
         /// 状态值
         /// </summary>
@@ -23,7 +28,7 @@ namespace ZhongYi.WuSe.WebApi.Logic.Response
         /// <summary>
         /// 业务数据
         /// </summary>
-        [DataMember(Name = "data")]
+        [DataMember(Name = "data", EmitDefaultValue = false)]
         public object Data { get; set; }
     }
 }

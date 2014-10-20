@@ -287,3 +287,113 @@ ZhongYi.WuSe.WebApi.Logic.Exceptions.UnauthorizedException: 验签失败
 
 
 
+------------------------------------------------------------
+------------------------------------------------------------
+2014-10-20 16:43:28,993 [6] ERROR zhongyi.wuse [(null)] - 
+WHO:cuiweigang
+HTTP HEADER: ------------------------------- 
+  CLIENT IP: ::1
+  Cache-Control: max-age=0
+  Connection: keep-alive
+  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  Accept-Encoding: gzip,deflate,sdch
+  Accept-Language: zh-CN,zh;q=0.8,en;q=0.6
+  Cookie: YINTAI_ERP_PRELOGINUSERNAME=%e7%ae%a1%e7%90%86%e5%91%98; sid=id=25a7d96e-567b-4931-a1c7-17f68eadbcc5; s_fid=0B115DB5F780D051-1C132318BF217354
+  Host: localhost:52066
+  User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36
+  URL: /api/v1/accounts/login?name=sdf,password=sdfs
+  HttpMethod: GET
+HTTP HEADER: ------------------------------- 
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 ZhongYi.WuSe.WebApi.Api.ModelBinders.CommonRequestBinder.ExecuteBindingAsync(ModelMetadataProvider metadataProvider, HttpActionContext actionContext, CancellationToken cancellationToken) 位置 e:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\ModelBinders\CommonRequestBinder.cs:行号 53
+   在 System.Web.Http.Controllers.HttpActionBinding.<>c__DisplayClass1.<ExecuteBindingAsync>b__0(HttpParameterBinding parameterBinder)
+   在 System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   在 System.Threading.Tasks.TaskHelpers.IterateImpl(IEnumerator`1 enumerator, CancellationToken cancellationToken)
+
+
+
+
+------------------------------------------------------------
+2014-10-20 16:45:19,248 [8] ERROR zhongyi.wuse [(null)] - 
+WHO:cuiweigang
+HTTP HEADER: ------------------------------- 
+  CLIENT IP: ::1
+  Cache-Control: max-age=0
+  Connection: keep-alive
+  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  Accept-Encoding: gzip,deflate,sdch
+  Accept-Language: zh-CN,zh;q=0.8,en;q=0.6
+  Cookie: YINTAI_ERP_PRELOGINUSERNAME=%e7%ae%a1%e7%90%86%e5%91%98; sid=id=25a7d96e-567b-4931-a1c7-17f68eadbcc5; s_fid=0B115DB5F780D051-1C132318BF217354
+  Host: localhost:52066
+  User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36
+  URL: /api/v1/accounts/login?name=sdf,password=sdfs
+  HttpMethod: GET
+HTTP HEADER: ------------------------------- 
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 ZhongYi.WuSe.WebApi.Api.ModelBinders.CommonRequestBinder.ExecuteBindingAsync(ModelMetadataProvider metadataProvider, HttpActionContext actionContext, CancellationToken cancellationToken) 位置 e:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\ModelBinders\CommonRequestBinder.cs:行号 53
+   在 System.Web.Http.Controllers.HttpActionBinding.<>c__DisplayClass1.<ExecuteBindingAsync>b__0(HttpParameterBinding parameterBinder)
+   在 System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   在 System.Threading.Tasks.TaskHelpers.IterateImpl(IEnumerator`1 enumerator, CancellationToken cancellationToken)
+
+
+
+
+2014-10-20 16:45:35,339 [9] ERROR zhongyi.wuse [(null)] - 
+WHO:cuiweigang
+HTTP HEADER: ------------------------------- 
+  CLIENT IP: ::1
+  Cache-Control: max-age=0
+  Connection: keep-alive
+  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  Accept-Encoding: gzip,deflate,sdch
+  Accept-Language: zh-CN,zh;q=0.8,en;q=0.6
+  Cookie: YINTAI_ERP_PRELOGINUSERNAME=%e7%ae%a1%e7%90%86%e5%91%98; sid=id=25a7d96e-567b-4931-a1c7-17f68eadbcc5; s_fid=0B115DB5F780D051-1C132318BF217354
+  Host: localhost:52066
+  User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36
+  URL: /api/v1/accounts/login?name=sdf,password=sdfs
+  HttpMethod: GET
+HTTP HEADER: ------------------------------- 
+
+System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 ZhongYi.WuSe.WebApi.Api.ModelBinders.CommonRequestBinder.ExecuteBindingAsync(ModelMetadataProvider metadataProvider, HttpActionContext actionContext, CancellationToken cancellationToken) 位置 e:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\ModelBinders\CommonRequestBinder.cs:行号 53
+   在 System.Web.Http.Controllers.HttpActionBinding.<>c__DisplayClass1.<ExecuteBindingAsync>b__0(HttpParameterBinding parameterBinder)
+   在 System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   在 System.Threading.Tasks.TaskHelpers.IterateImpl(IEnumerator`1 enumerator, CancellationToken cancellationToken)
+
+
+
+
+------------------------------------------------------------
+2014-10-20 16:46:44,908 [6] ERROR zhongyi.wuse [(null)] - 
+WHO:cuiweigang
+HTTP HEADER: ------------------------------- 
+  CLIENT IP: ::1
+  Cache-Control: max-age=0
+  Connection: keep-alive
+  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  Accept-Encoding: gzip,deflate,sdch
+  Accept-Language: zh-CN,zh;q=0.8,en;q=0.6
+  Cookie: YINTAI_ERP_PRELOGINUSERNAME=%e7%ae%a1%e7%90%86%e5%91%98; sid=id=25a7d96e-567b-4931-a1c7-17f68eadbcc5; s_fid=0B115DB5F780D051-1C132318BF217354
+  Host: localhost:52066
+  User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36
+  URL: /api/v1/accounts/login?name=sdf,password=sdfs
+  HttpMethod: GET
+HTTP HEADER: ------------------------------- 
+
+ZhongYi.WuSe.WebApi.Logic.Exceptions.UnauthorizedException: 验签失败
+   在 ZhongYi.WuSe.WebApi.Api.Filters.VerificationFilterAttribute.ExecuteActionFilterAsync(HttpActionContext actionContext, CancellationToken cancellationToken, Func`1 continuation) 位置 e:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\Filters\VerificationFilterAttribute.cs:行号 40
+   在 System.Web.Http.ApiController.<>c__DisplayClass14.<>c__DisplayClass16.<InvokeActionWithActionFilters>b__13()
+   在 System.Web.Http.ApiController.<>c__DisplayClass3.<ExecuteAsync>b__1()
+   在 System.Threading.Tasks.TaskHelpersExtensions.<>c__DisplayClass32`1.<Then>b__31(Task t)
+   在 System.Threading.Tasks.TaskHelpersExtensions.ThenImpl[TTask,TOuterResult](TTask task, Func`2 continuation, CancellationToken cancellationToken, Boolean runSynchronously)
+
+
+
+
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------

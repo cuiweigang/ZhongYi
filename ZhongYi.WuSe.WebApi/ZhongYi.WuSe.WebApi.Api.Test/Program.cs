@@ -15,7 +15,8 @@ namespace ZhongYi.WuSe.WebApi.Api.Test
             var querys = BuildQuerys(null);
 
             HttpClient client = new HttpClient();
-            var task = client.GetAsync("http://localhost:52066/api/v1/test/get" + "?" + querys);
+            var content = new FormUrlEncodedContent(new Dictionary<string, string>());
+            var task = client.PostAsync("http://localhost:52066/api/v1/shop/info", content);
             task.Wait();
             var result = task.Result;
             Console.WriteLine(result.Content.ReadAsStringAsync().Result);

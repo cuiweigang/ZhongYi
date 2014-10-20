@@ -66,9 +66,17 @@
     <Compile Include="Request\CommonRequest.cs" />
     <Compile Include="Request\SignRequest.cs" />
     <Compile Include="Response\CommonResponse.cs" />
+    <Compile Include="Response\ApiResult.cs" />
+    <Compile Include="Response\Shop\ShopInfo.cs" />
     <Compile Include="Response\StatusCode.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Request\Customer\" />
+    <Folder Include="Request\Order\" />
+    <Folder Include="Request\Shop\" />
+    <Folder Include="Response\Customer\" />
+    <Folder Include="Response\Order\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

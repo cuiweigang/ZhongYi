@@ -137,6 +137,11 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Helpers\ApiJsonFormatterHelper.cs" />
     <Compile Include="ModelBinders\NamespaceHttpControllerSelector.cs" />
+    <Compile Include="Versions\V1\Controllers\AccountsController.cs" />
+    <Compile Include="Versions\V1\Controllers\CustomerController.cs" />
+    <Compile Include="Versions\V1\Controllers\DetailController.cs" />
+    <Compile Include="Versions\V1\Controllers\OrderController.cs" />
+    <Compile Include="Versions\V1\Controllers\ShopController.cs" />
     <Compile Include="Versions\V1\Controllers\TestController.cs" />
     <Compile Include="Versions\V1\V1AreaRegistration.cs" />
     <Compile Include="Controllers\HomeController.cs" />

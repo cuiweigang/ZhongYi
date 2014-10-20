@@ -27,15 +27,15 @@ namespace ZhongYi.WuSe.WebApi.Api.Helpers
                 Status = 200,
             };
 
-            if (value is HttpError)
+            if (value is BaseException)
             {
-                var exception = new InternalServerException();
+                var exception = value as BaseException;
                 response.Status = (int)exception.StatusCode;
                 response.Description = exception.Message;
             }
-            else if (value is BaseException)
+            else if (value is HttpError || value is Exception)
             {
-                var exception = value as BaseException;
+                var exception = new InternalServerException();
                 response.Status = (int)exception.StatusCode;
                 response.Description = exception.Message;
             }

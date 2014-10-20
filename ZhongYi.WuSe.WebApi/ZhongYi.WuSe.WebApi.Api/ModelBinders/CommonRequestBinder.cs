@@ -50,7 +50,11 @@
                 WanType = GetParamterToString("WanType"),
             };
 
-            common.CustomerId = TryInt(HttpContext.Current.Items["CustomerId"].ToString());
+
+            if (HttpContext.Current.Items["CustomerId"] != null)
+            {
+                common.CustomerId = TryInt(HttpContext.Current.Items["CustomerId"].ToString());
+            }
 
             // TODO:根据Session获取用户ID
 

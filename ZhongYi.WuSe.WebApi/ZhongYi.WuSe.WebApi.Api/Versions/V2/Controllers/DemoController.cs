@@ -10,6 +10,9 @@ namespace ZhongYi.WuSe.WebApi.Api.Versions.V2.Controllers
 {
     using System.Web.Http.ModelBinding;
 
+    /// <summary>
+    /// 测试用
+    /// </summary>
     public class DemoController : ApiController
     {
         public string Get(CommonRequest common, [ModelBinder]SignRequest sign, int customerId)
