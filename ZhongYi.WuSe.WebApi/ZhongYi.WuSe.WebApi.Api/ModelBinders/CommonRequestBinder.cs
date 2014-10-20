@@ -50,8 +50,8 @@
                 WanType = GetParamterToString("WanType"),
             };
 
-
-            if (HttpContext.Current.Items["CustomerId"] != null)
+            // 添加用户ID
+            if (HttpContext.Current.Items.Contains("CustomerId"))
             {
                 common.CustomerId = TryInt(HttpContext.Current.Items["CustomerId"].ToString());
             }

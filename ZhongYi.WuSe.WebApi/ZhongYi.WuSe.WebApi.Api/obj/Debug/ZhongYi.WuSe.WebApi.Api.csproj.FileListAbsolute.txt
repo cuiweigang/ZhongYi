@@ -2,7 +2,6 @@ E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\log4net.config
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\ZhongYi.WuSe.WebApi.Api.dll
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\ZhongYi.WuSe.WebApi.Api.pdb
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\Antlr3.Runtime.dll
-E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\EntityFramework.dll
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\log4net.dll
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\Microsoft.Web.Infrastructure.dll
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\Newtonsoft.Json.dll
@@ -22,7 +21,6 @@ E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\System.Web.Web
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\WebGrease.dll
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\ZhongYi.WuSe.WebApi.Logic.dll
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\ZhongYi.WuSe.WebApi.Logic.pdb
-E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\EntityFramework.xml
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\Newtonsoft.Json.xml
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\System.Net.Http.xml
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\System.Net.Http.Formatting.xml
@@ -35,7 +33,6 @@ E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\System.Web.Raz
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\System.Web.WebPages.xml
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\System.Web.WebPages.Deployment.xml
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\System.Web.WebPages.Razor.xml
-E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\zh-Hans\EntityFramework.resources.dll
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\zh-Hans\System.Net.Http.resources.dll
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\zh-Hans\System.Net.Http.WebRequest.resources.dll
