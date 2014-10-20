@@ -12,7 +12,15 @@
 
         public UnauthorizedException(string message)
         {
-            this.Message = message;
+            this.message = message;
+        }
+
+        public override string Message
+        {
+            get
+            {
+                return this.message;
+            }
         }
 
         public override Response.StatusCode StatusCode

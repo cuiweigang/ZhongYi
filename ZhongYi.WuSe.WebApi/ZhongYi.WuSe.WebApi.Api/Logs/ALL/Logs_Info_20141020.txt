@@ -1,0 +1,289 @@
+------------------------------------------------------------
+2014-10-20 15:45:00,016 [8] ERROR zhongyi.wuse [(null)] - 
+WHO:cuiweigang
+HTTP HEADER: ------------------------------- 
+  CLIENT IP: ::1
+  Cache-Control: max-age=0
+  Connection: keep-alive
+  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  Accept-Encoding: gzip,deflate,sdch
+  Accept-Language: zh-CN,zh;q=0.8,en;q=0.6
+  Cookie: YINTAI_ERP_PRELOGINUSERNAME=%e7%ae%a1%e7%90%86%e5%91%98; sid=id=25a7d96e-567b-4931-a1c7-17f68eadbcc5; s_fid=0B115DB5F780D051-1C132318BF217354
+  Host: localhost:52066
+  User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36
+  URL: /api/v1/test/get/1
+  HttpMethod: GET
+HTTP HEADER: ------------------------------- 
+
+ZhongYi.WuSe.WebApi.Logic.Exceptions.UnauthorizedException: 引发类型为“ZhongYi.WuSe.WebApi.Logic.Exceptions.UnauthorizedException”的异常。
+   在 ZhongYi.WuSe.WebApi.Api.Filters.VerificationFilterAttribute.ExecuteActionFilterAsync(HttpActionContext actionContext, CancellationToken cancellationToken, Func`1 continuation) 位置 e:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\Filters\VerificationFilterAttribute.cs:行号 40
+   在 System.Web.Http.ApiController.<>c__DisplayClass14.<>c__DisplayClass16.<InvokeActionWithActionFilters>b__13()
+   在 System.Web.Http.ApiController.<>c__DisplayClass3.<ExecuteAsync>b__1()
+   在 System.Threading.Tasks.TaskHelpersExtensions.<>c__DisplayClass32`1.<Then>b__31(Task t)
+   在 System.Threading.Tasks.TaskHelpersExtensions.ThenImpl[TTask,TOuterResult](TTask task, Func`2 continuation, CancellationToken cancellationToken, Boolean runSynchronously)
+
+
+
+
+2014-10-20 15:45:37,983 [12] ERROR zhongyi.wuse [(null)] - 
+WHO:cuiweigang
+HTTP HEADER: ------------------------------- 
+  CLIENT IP: ::1
+  Cache-Control: max-age=0
+  Connection: keep-alive
+  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  Accept-Encoding: gzip,deflate,sdch
+  Accept-Language: zh-CN,zh;q=0.8,en;q=0.6
+  Cookie: YINTAI_ERP_PRELOGINUSERNAME=%e7%ae%a1%e7%90%86%e5%91%98; sid=id=25a7d96e-567b-4931-a1c7-17f68eadbcc5; s_fid=0B115DB5F780D051-1C132318BF217354
+  Host: localhost:52066
+  User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36
+  URL: /api/v1/test/get/1
+  HttpMethod: GET
+HTTP HEADER: ------------------------------- 
+
+ZhongYi.WuSe.WebApi.Logic.Exceptions.UnauthorizedException: 引发类型为“ZhongYi.WuSe.WebApi.Logic.Exceptions.UnauthorizedException”的异常。
+   在 ZhongYi.WuSe.WebApi.Api.Filters.VerificationFilterAttribute.ExecuteActionFilterAsync(HttpActionContext actionContext, CancellationToken cancellationToken, Func`1 continuation) 位置 e:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\Filters\VerificationFilterAttribute.cs:行号 40
+   在 System.Web.Http.ApiController.<>c__DisplayClass14.<>c__DisplayClass16.<InvokeActionWithActionFilters>b__13()
+   在 System.Web.Http.ApiController.<>c__DisplayClass3.<ExecuteAsync>b__1()
+   在 System.Threading.Tasks.TaskHelpersExtensions.<>c__DisplayClass32`1.<Then>b__31(Task t)
+   在 System.Threading.Tasks.TaskHelpersExtensions.ThenImpl[TTask,TOuterResult](TTask task, Func`2 continuation, CancellationToken cancellationToken, Boolean runSynchronously)
+
+
+
+
+2014-10-20 15:46:40,441 [11] ERROR zhongyi.wuse [(null)] - 
+WHO:cuiweigang
+HTTP HEADER: ------------------------------- 
+  CLIENT IP: ::1
+  Connection: Keep-Alive
+  Host: localhost:52066
+  URL: /api/v1/test/get?Platform=iphone&Ip=10.10.11.132&OS=IOS&OSVersion=IOS8.0.2&ScreenHeight=100&ScreenWidth=200&SessionId=d7144c7e-a5ba-4e37-a671-d5e5e2ffcc72&SourcesId=100001&MacId=01:01:01:01&IMEI=134567812768&DeviceName=iphone4s&CustomerId=13&ClientVersion=%E5%BF%AB%E5%BA%971.1&ChannelId=3010900&Carrier=%E4%B8%AD%E5%9B%BD%E7%A7%BB%E5%8A%A8&ApiVersion=1.0&TimeReq=130582620123262762&sign=5f1261c39b506bbfce7f7757ae5035a51
+  HttpMethod: GET
+HTTP HEADER: ------------------------------- 
+
+ZhongYi.WuSe.WebApi.Logic.Exceptions.UnauthorizedException: 引发类型为“ZhongYi.WuSe.WebApi.Logic.Exceptions.UnauthorizedException”的异常。
+   在 ZhongYi.WuSe.WebApi.Api.Filters.VerificationFilterAttribute.ExecuteActionFilterAsync(HttpActionContext actionContext, CancellationToken cancellationToken, Func`1 continuation) 位置 e:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\Filters\VerificationFilterAttribute.cs:行号 40
+   在 System.Web.Http.ApiController.<>c__DisplayClass14.<>c__DisplayClass16.<InvokeActionWithActionFilters>b__13()
+   在 System.Web.Http.ApiController.<>c__DisplayClass3.<ExecuteAsync>b__1()
+   在 System.Threading.Tasks.TaskHelpersExtensions.<>c__DisplayClass32`1.<Then>b__31(Task t)
+   在 System.Threading.Tasks.TaskHelpersExtensions.ThenImpl[TTask,TOuterResult](TTask task, Func`2 continuation, CancellationToken cancellationToken, Boolean runSynchronously)
+
+
+
+
+------------------------------------------------------------
+2014-10-20 15:49:04,281 [14] ERROR zhongyi.wuse [(null)] - 
+WHO:cuiweigang
+HTTP HEADER: ------------------------------- 
+  CLIENT IP: ::1
+  Cache-Control: max-age=0
+  Connection: keep-alive
+  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  Accept-Encoding: gzip,deflate,sdch
+  Accept-Language: zh-CN,zh;q=0.8,en;q=0.6
+  Cookie: YINTAI_ERP_PRELOGINUSERNAME=%e7%ae%a1%e7%90%86%e5%91%98; sid=id=25a7d96e-567b-4931-a1c7-17f68eadbcc5; s_fid=0B115DB5F780D051-1C132318BF217354
+  Host: localhost:52066
+  User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36
+  URL: /api/v1/test/get/1
+  HttpMethod: GET
+HTTP HEADER: ------------------------------- 
+
+ZhongYi.WuSe.WebApi.Logic.Exceptions.UnauthorizedException: 引发类型为“ZhongYi.WuSe.WebApi.Logic.Exceptions.UnauthorizedException”的异常。
+   在 ZhongYi.WuSe.WebApi.Api.Filters.VerificationFilterAttribute.ExecuteActionFilterAsync(HttpActionContext actionContext, CancellationToken cancellationToken, Func`1 continuation) 位置 e:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\Filters\VerificationFilterAttribute.cs:行号 40
+   在 System.Web.Http.ApiController.<>c__DisplayClass14.<>c__DisplayClass16.<InvokeActionWithActionFilters>b__13()
+   在 System.Web.Http.ApiController.<>c__DisplayClass3.<ExecuteAsync>b__1()
+   在 System.Threading.Tasks.TaskHelpersExtensions.<>c__DisplayClass32`1.<Then>b__31(Task t)
+   在 System.Threading.Tasks.TaskHelpersExtensions.ThenImpl[TTask,TOuterResult](TTask task, Func`2 continuation, CancellationToken cancellationToken, Boolean runSynchronously)
+
+
+
+
+------------------------------------------------------------
+2014-10-20 15:50:09,963 [9] ERROR zhongyi.wuse [(null)] - 
+WHO:cuiweigang
+HTTP HEADER: ------------------------------- 
+  CLIENT IP: ::1
+  Cache-Control: max-age=0
+  Connection: keep-alive
+  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  Accept-Encoding: gzip,deflate,sdch
+  Accept-Language: zh-CN,zh;q=0.8,en;q=0.6
+  Cookie: YINTAI_ERP_PRELOGINUSERNAME=%e7%ae%a1%e7%90%86%e5%91%98; sid=id=25a7d96e-567b-4931-a1c7-17f68eadbcc5; s_fid=0B115DB5F780D051-1C132318BF217354
+  Host: localhost:52066
+  User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36
+  URL: /api/v1/test/get/1
+  HttpMethod: GET
+HTTP HEADER: ------------------------------- 
+
+ZhongYi.WuSe.WebApi.Logic.Exceptions.UnauthorizedException: 引发类型为“ZhongYi.WuSe.WebApi.Logic.Exceptions.UnauthorizedException”的异常。
+   在 ZhongYi.WuSe.WebApi.Api.Filters.VerificationFilterAttribute.ExecuteActionFilterAsync(HttpActionContext actionContext, CancellationToken cancellationToken, Func`1 continuation) 位置 e:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\Filters\VerificationFilterAttribute.cs:行号 40
+   在 System.Web.Http.ApiController.<>c__DisplayClass14.<>c__DisplayClass16.<InvokeActionWithActionFilters>b__13()
+   在 System.Web.Http.ApiController.<>c__DisplayClass3.<ExecuteAsync>b__1()
+   在 System.Threading.Tasks.TaskHelpersExtensions.<>c__DisplayClass32`1.<Then>b__31(Task t)
+   在 System.Threading.Tasks.TaskHelpersExtensions.ThenImpl[TTask,TOuterResult](TTask task, Func`2 continuation, CancellationToken cancellationToken, Boolean runSynchronously)
+
+
+
+
+2014-10-20 15:50:10,763 [12] ERROR zhongyi.wuse [(null)] - 
+WHO:cuiweigang
+HTTP HEADER: ------------------------------- 
+  CLIENT IP: ::1
+  Cache-Control: max-age=0
+  Connection: keep-alive
+  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  Accept-Encoding: gzip,deflate,sdch
+  Accept-Language: zh-CN,zh;q=0.8,en;q=0.6
+  Cookie: YINTAI_ERP_PRELOGINUSERNAME=%e7%ae%a1%e7%90%86%e5%91%98; sid=id=25a7d96e-567b-4931-a1c7-17f68eadbcc5; s_fid=0B115DB5F780D051-1C132318BF217354
+  Host: localhost:52066
+  User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36
+  URL: /api/v1/test/get/1
+  HttpMethod: GET
+HTTP HEADER: ------------------------------- 
+
+ZhongYi.WuSe.WebApi.Logic.Exceptions.UnauthorizedException: 引发类型为“ZhongYi.WuSe.WebApi.Logic.Exceptions.UnauthorizedException”的异常。
+   在 ZhongYi.WuSe.WebApi.Api.Filters.VerificationFilterAttribute.ExecuteActionFilterAsync(HttpActionContext actionContext, CancellationToken cancellationToken, Func`1 continuation) 位置 e:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\Filters\VerificationFilterAttribute.cs:行号 40
+   在 System.Web.Http.ApiController.<>c__DisplayClass14.<>c__DisplayClass16.<InvokeActionWithActionFilters>b__13()
+   在 System.Web.Http.ApiController.<>c__DisplayClass3.<ExecuteAsync>b__1()
+   在 System.Threading.Tasks.TaskHelpersExtensions.<>c__DisplayClass32`1.<Then>b__31(Task t)
+   在 System.Threading.Tasks.TaskHelpersExtensions.ThenImpl[TTask,TOuterResult](TTask task, Func`2 continuation, CancellationToken cancellationToken, Boolean runSynchronously)
+
+
+
+
+------------------------------------------------------------
+2014-10-20 15:50:53,263 [6] ERROR zhongyi.wuse [(null)] - 
+WHO:cuiweigang
+HTTP HEADER: ------------------------------- 
+  CLIENT IP: ::1
+  Cache-Control: max-age=0
+  Connection: keep-alive
+  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  Accept-Encoding: gzip,deflate,sdch
+  Accept-Language: zh-CN,zh;q=0.8,en;q=0.6
+  Cookie: YINTAI_ERP_PRELOGINUSERNAME=%e7%ae%a1%e7%90%86%e5%91%98; sid=id=25a7d96e-567b-4931-a1c7-17f68eadbcc5; s_fid=0B115DB5F780D051-1C132318BF217354
+  Host: localhost:52066
+  User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36
+  URL: /api/v1/test/get/1
+  HttpMethod: GET
+HTTP HEADER: ------------------------------- 
+
+ZhongYi.WuSe.WebApi.Logic.Exceptions.UnauthorizedException: 引发类型为“ZhongYi.WuSe.WebApi.Logic.Exceptions.UnauthorizedException”的异常。
+   在 ZhongYi.WuSe.WebApi.Api.Filters.VerificationFilterAttribute.ExecuteActionFilterAsync(HttpActionContext actionContext, CancellationToken cancellationToken, Func`1 continuation) 位置 e:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\Filters\VerificationFilterAttribute.cs:行号 40
+   在 System.Web.Http.ApiController.<>c__DisplayClass14.<>c__DisplayClass16.<InvokeActionWithActionFilters>b__13()
+   在 System.Web.Http.ApiController.<>c__DisplayClass3.<ExecuteAsync>b__1()
+   在 System.Threading.Tasks.TaskHelpersExtensions.<>c__DisplayClass32`1.<Then>b__31(Task t)
+   在 System.Threading.Tasks.TaskHelpersExtensions.ThenImpl[TTask,TOuterResult](TTask task, Func`2 continuation, CancellationToken cancellationToken, Boolean runSynchronously)
+
+
+
+
+2014-10-20 15:51:05,364 [7] ERROR zhongyi.wuse [(null)] - 
+WHO:cuiweigang
+HTTP HEADER: ------------------------------- 
+  CLIENT IP: ::1
+  Cache-Control: max-age=0
+  Connection: keep-alive
+  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  Accept-Encoding: gzip,deflate,sdch
+  Accept-Language: zh-CN,zh;q=0.8,en;q=0.6
+  Cookie: YINTAI_ERP_PRELOGINUSERNAME=%e7%ae%a1%e7%90%86%e5%91%98; sid=id=25a7d96e-567b-4931-a1c7-17f68eadbcc5; s_fid=0B115DB5F780D051-1C132318BF217354
+  Host: localhost:52066
+  User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36
+  URL: /api/v1/test/get/1
+  HttpMethod: GET
+HTTP HEADER: ------------------------------- 
+
+ZhongYi.WuSe.WebApi.Logic.Exceptions.UnauthorizedException: 引发类型为“ZhongYi.WuSe.WebApi.Logic.Exceptions.UnauthorizedException”的异常。
+   在 ZhongYi.WuSe.WebApi.Api.Filters.VerificationFilterAttribute.ExecuteActionFilterAsync(HttpActionContext actionContext, CancellationToken cancellationToken, Func`1 continuation) 位置 e:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\Filters\VerificationFilterAttribute.cs:行号 40
+   在 System.Web.Http.ApiController.<>c__DisplayClass14.<>c__DisplayClass16.<InvokeActionWithActionFilters>b__13()
+   在 System.Web.Http.ApiController.<>c__DisplayClass3.<ExecuteAsync>b__1()
+   在 System.Threading.Tasks.TaskHelpersExtensions.<>c__DisplayClass32`1.<Then>b__31(Task t)
+   在 System.Threading.Tasks.TaskHelpersExtensions.ThenImpl[TTask,TOuterResult](TTask task, Func`2 continuation, CancellationToken cancellationToken, Boolean runSynchronously)
+
+
+
+
+------------------------------------------------------------
+2014-10-20 15:52:36,523 [7] ERROR zhongyi.wuse [(null)] - 
+WHO:cuiweigang
+HTTP HEADER: ------------------------------- 
+  CLIENT IP: ::1
+  Cache-Control: max-age=0
+  Connection: keep-alive
+  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  Accept-Encoding: gzip,deflate,sdch
+  Accept-Language: zh-CN,zh;q=0.8,en;q=0.6
+  Cookie: YINTAI_ERP_PRELOGINUSERNAME=%e7%ae%a1%e7%90%86%e5%91%98; sid=id=25a7d96e-567b-4931-a1c7-17f68eadbcc5; s_fid=0B115DB5F780D051-1C132318BF217354
+  Host: localhost:52066
+  User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36
+  URL: /api/v1/test/get/1
+  HttpMethod: GET
+HTTP HEADER: ------------------------------- 
+
+Message:引发类型为“ZhongYi.WuSe.WebApi.Logic.Exceptions.UnauthorizedException”的异常。
+ZhongYi.WuSe.WebApi.Logic.Exceptions.UnauthorizedException: 引发类型为“ZhongYi.WuSe.WebApi.Logic.Exceptions.UnauthorizedException”的异常。
+   在 ZhongYi.WuSe.WebApi.Api.Filters.VerificationFilterAttribute.ExecuteActionFilterAsync(HttpActionContext actionContext, CancellationToken cancellationToken, Func`1 continuation) 位置 e:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\Filters\VerificationFilterAttribute.cs:行号 40
+   在 System.Web.Http.ApiController.<>c__DisplayClass14.<>c__DisplayClass16.<InvokeActionWithActionFilters>b__13()
+   在 System.Web.Http.ApiController.<>c__DisplayClass3.<ExecuteAsync>b__1()
+   在 System.Threading.Tasks.TaskHelpersExtensions.<>c__DisplayClass32`1.<Then>b__31(Task t)
+   在 System.Threading.Tasks.TaskHelpersExtensions.ThenImpl[TTask,TOuterResult](TTask task, Func`2 continuation, CancellationToken cancellationToken, Boolean runSynchronously)
+
+
+
+
+------------------------------------------------------------
+2014-10-20 15:57:19,846 [5] ERROR zhongyi.wuse [(null)] - 
+WHO:cuiweigang
+HTTP HEADER: ------------------------------- 
+  CLIENT IP: ::1
+  Cache-Control: max-age=0
+  Connection: keep-alive
+  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  Accept-Encoding: gzip,deflate,sdch
+  Accept-Language: zh-CN,zh;q=0.8,en;q=0.6
+  Cookie: YINTAI_ERP_PRELOGINUSERNAME=%e7%ae%a1%e7%90%86%e5%91%98; sid=id=25a7d96e-567b-4931-a1c7-17f68eadbcc5; s_fid=0B115DB5F780D051-1C132318BF217354
+  Host: localhost:52066
+  User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36
+  URL: /api/v1/test/get/1
+  HttpMethod: GET
+HTTP HEADER: ------------------------------- 
+
+Message:验签失败
+ZhongYi.WuSe.WebApi.Logic.Exceptions.UnauthorizedException: 验签失败
+   在 ZhongYi.WuSe.WebApi.Api.Filters.VerificationFilterAttribute.ExecuteActionFilterAsync(HttpActionContext actionContext, CancellationToken cancellationToken, Func`1 continuation) 位置 e:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\Filters\VerificationFilterAttribute.cs:行号 40
+   在 System.Web.Http.ApiController.<>c__DisplayClass14.<>c__DisplayClass16.<InvokeActionWithActionFilters>b__13()
+   在 System.Web.Http.ApiController.<>c__DisplayClass3.<ExecuteAsync>b__1()
+   在 System.Threading.Tasks.TaskHelpersExtensions.<>c__DisplayClass32`1.<Then>b__31(Task t)
+   在 System.Threading.Tasks.TaskHelpersExtensions.ThenImpl[TTask,TOuterResult](TTask task, Func`2 continuation, CancellationToken cancellationToken, Boolean runSynchronously)
+
+
+
+
+------------------------------------------------------------
+2014-10-20 15:58:16,102 [8] ERROR zhongyi.wuse [(null)] - 
+WHO:cuiweigang
+HTTP HEADER: ------------------------------- 
+  CLIENT IP: ::1
+  Cache-Control: max-age=0
+  Connection: keep-alive
+  Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+  Accept-Encoding: gzip,deflate,sdch
+  Accept-Language: zh-CN,zh;q=0.8,en;q=0.6
+  Cookie: YINTAI_ERP_PRELOGINUSERNAME=%e7%ae%a1%e7%90%86%e5%91%98; sid=id=25a7d96e-567b-4931-a1c7-17f68eadbcc5; s_fid=0B115DB5F780D051-1C132318BF217354
+  Host: localhost:52066
+  User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.154 Safari/537.36
+  URL: /api/v1/test/get/1
+  HttpMethod: GET
+HTTP HEADER: ------------------------------- 
+
+ZhongYi.WuSe.WebApi.Logic.Exceptions.UnauthorizedException: 验签失败
+   在 ZhongYi.WuSe.WebApi.Api.Filters.VerificationFilterAttribute.ExecuteActionFilterAsync(HttpActionContext actionContext, CancellationToken cancellationToken, Func`1 continuation) 位置 e:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\Filters\VerificationFilterAttribute.cs:行号 40
+   在 System.Web.Http.ApiController.<>c__DisplayClass14.<>c__DisplayClass16.<InvokeActionWithActionFilters>b__13()
+   在 System.Web.Http.ApiController.<>c__DisplayClass3.<ExecuteAsync>b__1()
+   在 System.Threading.Tasks.TaskHelpersExtensions.<>c__DisplayClass32`1.<Then>b__31(Task t)
+   在 System.Threading.Tasks.TaskHelpersExtensions.ThenImpl[TTask,TOuterResult](TTask task, Func`2 continuation, CancellationToken cancellationToken, Boolean runSynchronously)
+
+
+
+

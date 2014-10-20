@@ -1,0 +1,6 @@
+E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api.Test\bin\Debug\ZhongYi.WuSe.WebApi.Api.Test.exe
+E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api.Test\bin\Debug\ZhongYi.WuSe.WebApi.Api.Test.pdb
+E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api.Test\obj\Debug\ZhongYi.WuSe.WebApi.Api.Test.csprojResolveAssemblyReference.cache
+E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api.Test\obj\Debug\ZhongYi.WuSe.WebApi.Api.Test.exe
+E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api.Test\obj\Debug\ZhongYi.WuSe.WebApi.Api.Test.pdb
+E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api.Test\bin\Debug\ZhongYi.WuSe.WebApi.Api.Test.exe.config

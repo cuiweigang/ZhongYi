@@ -5,6 +5,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZhongYi.WuSe.WebApi.Api", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZhongYi.WuSe.WebApi.Logic", "ZhongYi.WuSe.WebApi.Logic\ZhongYi.WuSe.WebApi.Logic.csproj", "{ADA51DF2-817F-4868-A4FF-C9A4111DD0FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZhongYi.WuSe.WebApi.Api.Test", "ZhongYi.WuSe.WebApi.Api.Test\ZhongYi.WuSe.WebApi.Api.Test.csproj", "{D1EBBD53-9DC5-459C-8DAB-AE10B8F91645}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{5DC3C028-9C51-4976-8BBB-AC7A4315ADD6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3A7484D0-66B5-4752-8447-CFB6979F261A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,8 +25,17 @@ Global
 		{ADA51DF2-817F-4868-A4FF-C9A4111DD0FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADA51DF2-817F-4868-A4FF-C9A4111DD0FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADA51DF2-817F-4868-A4FF-C9A4111DD0FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1EBBD53-9DC5-459C-8DAB-AE10B8F91645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1EBBD53-9DC5-459C-8DAB-AE10B8F91645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1EBBD53-9DC5-459C-8DAB-AE10B8F91645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1EBBD53-9DC5-459C-8DAB-AE10B8F91645}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6D03CC2C-BBD9-48A7-8A3D-02223A06C424} = {5DC3C028-9C51-4976-8BBB-AC7A4315ADD6}
+		{ADA51DF2-817F-4868-A4FF-C9A4111DD0FB} = {5DC3C028-9C51-4976-8BBB-AC7A4315ADD6}
+		{D1EBBD53-9DC5-459C-8DAB-AE10B8F91645} = {3A7484D0-66B5-4752-8447-CFB6979F261A}
 	EndGlobalSection
 EndGlobal

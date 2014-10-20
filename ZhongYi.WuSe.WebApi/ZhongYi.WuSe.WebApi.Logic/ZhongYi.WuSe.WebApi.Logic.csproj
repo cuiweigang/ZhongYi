@@ -33,9 +33,14 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="log4net">
+      <HintPath>..\Assembly\log4net.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -51,12 +56,19 @@
     <Compile Include="Exceptions\UnauthorizedException.cs" />
     <Compile Include="Exceptions\UnKnowErrorException.cs" />
     <Compile Include="Exceptions\UnLoginedException.cs" />
+    <Compile Include="Helpers\AppSettings.cs" />
+    <Compile Include="Helpers\CommonHelper.cs" />
+    <Compile Include="Helpers\HashHelper.cs" />
+    <Compile Include="Helpers\LoggerHelper.cs" />
+    <Compile Include="Helpers\MD5.cs" />
+    <Compile Include="Helpers\SHA.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Request\CommonRequest.cs" />
     <Compile Include="Request\SignRequest.cs" />
     <Compile Include="Response\CommonResponse.cs" />
     <Compile Include="Response\StatusCode.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -14,6 +14,7 @@ namespace ZhongYi.WuSe.WebApi.Api.Formatters
 
     using Newtonsoft.Json;
 
+    using ZhongYi.WuSe.WebApi.Api.Helpers;
     using ZhongYi.WuSe.WebApi.Logic.Response;
 
     /// <summary>
@@ -82,15 +83,10 @@ namespace ZhongYi.WuSe.WebApi.Api.Formatters
             using (StreamWriter streamWriter = new StreamWriter(writeStream, this.SupportedEncodings.First()))
             using (JsonTextWriter jsonTextWriter = new JsonTextWriter(streamWriter) { CloseOutput = false })
             {
-                var response = new CommonResponse
-                {
-                    Status = 200,
-                    Data = value,
-                    Description = "成功"
-                };
+                var result = ApiJsonFormatterHelper.ConvertResult(value);
 
                 jsonTextWriter.WriteRaw(this.callback + "(");
-                serializer.Serialize(jsonTextWriter, response);
+                serializer.Serialize(jsonTextWriter, result);
                 jsonTextWriter.WriteRaw(")");
             }
         }

@@ -8,8 +8,8 @@ namespace ZhongYi.WuSe.WebApi.Api.Filters
     using System.Net;
     using System.Net.Http;
     using System.Web.Http.Filters;
-
     using ZhongYi.WuSe.WebApi.Logic.Exceptions;
+    using ZhongYi.WuSe.WebApi.Logic.Helpers;
     using ZhongYi.WuSe.WebApi.Logic.Request;
 
     /// <summary>
@@ -19,7 +19,10 @@ namespace ZhongYi.WuSe.WebApi.Api.Filters
     {
         public System.Threading.Tasks.Task<HttpResponseMessage> ExecuteActionFilterAsync(System.Web.Http.Controllers.HttpActionContext actionContext, System.Threading.CancellationToken cancellationToken, Func<System.Threading.Tasks.Task<HttpResponseMessage>> continuation)
         {
-            // TODO:增加验签开关
+            if (AppSettings.CancelSign)
+            {
+                return continuation();
+            }
 
             //SignRequest
             var sign = new SignRequest();

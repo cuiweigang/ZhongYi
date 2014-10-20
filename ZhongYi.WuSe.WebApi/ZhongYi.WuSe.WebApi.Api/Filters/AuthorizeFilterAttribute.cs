@@ -1,4 +1,5 @@
-﻿using ZhongYi.WuSe.WebApi.Logic.Exceptions;
+﻿using System.Web;
+using ZhongYi.WuSe.WebApi.Logic.Exceptions;
 namespace ZhongYi.WuSe.WebApi.Api.Filters
 {
     /// <summary>
@@ -22,9 +23,12 @@ namespace ZhongYi.WuSe.WebApi.Api.Filters
                 }
             }
 
-            // TODO:再次进行登录验证
+            // TODO:进行登录验证
             if (true)
             {
+                // 传递用户ID
+                HttpContext.Current.Items.Add("CustomerId", 13);
+
                 return true;
             }
 

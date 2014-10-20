@@ -18,7 +18,18 @@ namespace ZhongYi.WuSe.WebApi.Logic.Exceptions
 
         public InternalServerException(string message)
         {
-            this.Message = message;
+            this.message = message;
+        }
+
+        /// <summary>
+        /// 消息
+        /// </summary>
+        public override string Message
+        {
+            get
+            {
+                return this.message;
+            }
         }
 
         /// <summary>

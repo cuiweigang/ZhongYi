@@ -19,7 +19,15 @@ namespace ZhongYi.WuSe.WebApi.Logic.Exceptions
 
         public ClientErrorException(string message)
         {
-            this.Message = message;
+            this.message = message;
+        }
+
+        public override string Message
+        {
+            get
+            {
+                return this.message;
+            }
         }
 
         /// <summary>

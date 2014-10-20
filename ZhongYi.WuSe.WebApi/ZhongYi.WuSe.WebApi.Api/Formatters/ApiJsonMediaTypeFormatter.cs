@@ -8,10 +8,13 @@
     using System.Net.Http.Formatting;
     using System.Net.Http.Headers;
     using System.Runtime.InteropServices;
+    using System.Threading;
     using System.Threading.Tasks;
+    using System.Web.Http.Controllers;
 
     using Newtonsoft.Json;
 
+    using ZhongYi.WuSe.WebApi.Api.Helpers;
     using ZhongYi.WuSe.WebApi.Logic.Response;
 
     /// <summary>
@@ -65,14 +68,8 @@
             using (StreamWriter streamWriter = new StreamWriter(writeStream, this.SupportedEncodings.First()))
             using (JsonTextWriter jsonTextWriter = new JsonTextWriter(streamWriter) { CloseOutput = false })
             {
-                var response = new CommonResponse
-                {
-                    Status = 200,
-                    Data = value,
-                    Description = "成功"
-                };
-
-                serializer.Serialize(jsonTextWriter, response);
+                var result = ApiJsonFormatterHelper.ConvertResult(value);
+                serializer.Serialize(jsonTextWriter, result);
             }
         }
 
@@ -90,4 +87,7 @@
         }
 
     }
+
+
+
 }

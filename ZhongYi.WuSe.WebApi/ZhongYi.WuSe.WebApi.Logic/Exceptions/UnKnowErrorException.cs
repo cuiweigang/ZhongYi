@@ -10,9 +10,22 @@
         {
         }
 
+
+
         public UnKnowErrorException(string message)
         {
-            this.Message = message;
+            this.message = message;
+        }
+
+        /// <summary>
+        /// Message
+        /// </summary>
+        public override string Message
+        {
+            get
+            {
+                return this.message;
+            }
         }
 
         public override Response.StatusCode StatusCode

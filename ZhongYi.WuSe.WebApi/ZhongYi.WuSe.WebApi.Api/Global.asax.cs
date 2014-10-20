@@ -25,6 +25,9 @@
             WebApiConfig.Register(GlobalConfiguration.Configuration);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+
+            // log4net初始化
+            log4net.Config.XmlConfigurator.Configure();
         }
 
         /// <summary>

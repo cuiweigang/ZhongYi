@@ -13,9 +13,9 @@ namespace ZhongYi.WuSe.WebApi.Logic.Exceptions
     public abstract class BaseException : Exception
     {
         /// <summary>
-        /// Message
+        /// 消息
         /// </summary>
-        public new string Message { get; protected set; }
+        protected string message;
 
         /// <summary>
         /// 状态值

@@ -16,7 +16,7 @@ namespace ZhongYi.WuSe.WebApi.Logic.Request
         /// <summary>
         /// 客户端平台 iphone/ipad/andriod
         /// </summary>
-        public int Platform { get; set; }
+        public string Platform { get; set; }
 
         /// <summary>
         /// 设备名称 Iphone5s

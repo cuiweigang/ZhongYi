@@ -16,9 +16,20 @@ namespace ZhongYi.WuSe.WebApi.Logic.Exceptions
         {
         }
 
+        /// <summary>
+        /// 消息
+        /// </summary>
+        public override string Message
+        {
+            get
+            {
+                return this.message;
+            }
+        }
+
         public ParameterErrorException(string message)
         {
-            this.Message = message;
+            this.message = message;
         }
 
         /// <summary>

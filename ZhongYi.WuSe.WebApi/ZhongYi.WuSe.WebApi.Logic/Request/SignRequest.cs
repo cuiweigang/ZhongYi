@@ -1,4 +1,5 @@
-﻿namespace ZhongYi.WuSe.WebApi.Logic.Request
+﻿using ZhongYi.WuSe.WebApi.Logic.Helpers;
+namespace ZhongYi.WuSe.WebApi.Logic.Request
 {
     /// <summary>
     /// 验签请求
@@ -31,7 +32,7 @@
         private string GetAppKey()
         {
             // TODO:获取客户端签名方法
-            return this.SignType;
+            return "0000000000000000001";
         }
 
         /// <summary>
@@ -40,8 +41,13 @@
         /// <returns></returns>
         public bool Validate()
         {
-            // TODO: 验签认证
-            return true;
+            var paramString = string.Format("os={0}&timereq={1}&appkey={2}", this.OS, this.TimeReq, this.GetAppKey());
+            
+            //paramString = "os=iphone&timereq=20140309112229&appkey=3452CB52D98A987E798E071D798E090D";
+            
+            var md5 = HashHelper.MD5(paramString).HexDigest;
+
+            return md5 == Sign;
         }
 
     }

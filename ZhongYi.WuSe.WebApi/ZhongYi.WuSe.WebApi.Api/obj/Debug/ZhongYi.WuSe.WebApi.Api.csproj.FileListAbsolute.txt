@@ -1,7 +1,9 @@
+E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\log4net.config
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\ZhongYi.WuSe.WebApi.Api.dll
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\ZhongYi.WuSe.WebApi.Api.pdb
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\Antlr3.Runtime.dll
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\EntityFramework.dll
+E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\log4net.dll
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\Microsoft.Web.Infrastructure.dll
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\Newtonsoft.Json.dll
 E:\GitHub\ZhongYi\ZhongYi.WuSe.WebApi\ZhongYi.WuSe.WebApi.Api\bin\System.Net.Http.dll
